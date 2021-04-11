@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: #e2edff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-color {
+  background-image: linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+}
+
+.navbar-nav {
+  margin-right: 0 20px 0 20px;
+}
+
+.button-header {
+  border-radius: 15px;
+  padding: 5px 20px;
+  color: rgb(62, 161, 219);
+}
+
+.nav-link {
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-link {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron h1 {
+  font-weight: 400;
+}
+
+.jumbotron p {
+  font-weight: 400;
+}
+
+.jumbotron button {
+  margin: 5px 0;
+  padding: 5px 20px;
+  font-weight: 300;
+  border-radius: 20px;
+  border: 0;
+  background-image: linear-gradient(109.6deg, rgba(62, 161, 219, 1) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+}
+
+.jumbotron button:hover {
+  background-image: none;
+}
+
+.jumbotron button a {
+  text-decoration: none;
+}
+
+#about {
+  background: white;
+}
+
+.text-about p {
+  text-align: justify;
+  font-weight: 300;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+#projects h2 {
+  position: relative;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card img {
+  border-radius: 20px 20px 0 0;
+}
+
+.row-card p {
+  text-align: justify;
+}
+
+#skill {
+  background: white;
+}
+
+.skill-progress p {
+  margin: 8px 0;
+}
+
+.progress-bar {
+  background-image: linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+  border-radius: 10px;
+}
+
+.skill-progress .progress {
+  border-radius: 10px;
+}
+
+#contact {
+  background-color: #e2edff;
+}
+
+#contact h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-contact {
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 0;
+}
+
+footer {
+  z-index: 1;
+  border-radius: 40px 40px 0 0;
+  background-image: linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+  padding: 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e2edff;
+}
+
+footer ul {
+  padding: 0;
+  margin-right: 5px;
+}
+
+footer ul li {
+  margin: 0 5px;
+  display: inline-block;
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(62, 161, 219);
+  border-radius: 5px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-color: #e2edff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: -15em;
+}
+
+#particles-js-two {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  background-color: #e2edff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: -8em;
+}
+
+#particles-js-three {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-color: #e2edff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: -8em;
+}
